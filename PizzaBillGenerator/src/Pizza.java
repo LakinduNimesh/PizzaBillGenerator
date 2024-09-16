@@ -3,7 +3,7 @@ public class Pizza {
     private boolean pizzaVeg;
     private double pizzaBasePrice;
     private double extraCheesePrice = 150;
-    private double extraToppingsprice = 170;
+    private double extraToppingSprice = 170;
     private double takeAwayBagPrice = 70;
     private boolean extraCheese;
     private boolean extraToppings;
@@ -35,7 +35,7 @@ public class Pizza {
         }
 
         if(extraToppings){
-            finalPrice += extraToppingsprice;
+            finalPrice += extraToppingSprice;
         }
 
         if(takeAway){
@@ -55,7 +55,7 @@ public class Pizza {
             System.out.println("Extra Cheese Added: " + extraCheesePrice);
         }
         if (extraToppings){
-            System.out.println("Extra Toppings Added: " + extraToppingsprice);
+            System.out.println("Extra Toppings Added: " + extraToppingSprice);
         }
         if (takeAway){
             System.out.println("Takeaway Bag Added: " + takeAwayBagPrice);
